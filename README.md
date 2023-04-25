@@ -1,6 +1,16 @@
 # Rottentomatoes-Web-Scraper
 A web scraper to extract movies data from [www.rottentomatoes.com](https://www.rottentomatoes.com/). 
 
+This project contains an interaction with the target website to click on a button and load more movies before calling the movies scraper.  
+  
+The first step is to find the exact location of the element to be clicked. This is done through the element CSS locator, that can be found  
+by clicking on *Copy* --> *Copy selector*.
+
+![alt text](https://github.com/mariadancianu/Rottentomatoes-Web-Scraper/blob/main/load_more_button_css_selector_copy.png)
+
+## Output dataset 
+![alt text](https://github.com/mariadancianu/Rottentomatoes-Web-Scraper/blob/main/rottentomatoes_output_example.png)
+
 ## Technologies 
 
 Python version: 3.11. 
