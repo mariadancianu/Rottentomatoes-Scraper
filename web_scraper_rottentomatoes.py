@@ -17,7 +17,7 @@ options.add_argument("--headless")
 
 def get_homepage_url_soup(url, 
                           load_more_data=True,
-                          num_load_more_data_clicks=1, 
+                          num_load_more_data_clicks=4, 
                           crawling_delay=5):
     """Opens the website and returns a BeautifulSoup object.
     
@@ -168,7 +168,7 @@ def MoviesDataScraper():
 
         movie_url = movie_urls[0]['href'][1:]
         movie_url = f'{root_url}{movie_url}'
-            
+        
         movie_soup = get_url_soup(movie_url)
         
         movie_output_dict = get_movie_data(movie_soup)
