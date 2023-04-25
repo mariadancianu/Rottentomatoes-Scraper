@@ -1,4 +1,4 @@
-# Rottentomatoes-Scraper
+# Rottentomatoes-Web-Scraper
 A web scraper to extract movies data from [www.rottentomatoes.com](https://www.rottentomatoes.com/). 
 
 ## Technologies 
