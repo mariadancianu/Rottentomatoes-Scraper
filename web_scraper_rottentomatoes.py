@@ -27,7 +27,7 @@ def get_homepage_url_soup(url,
       load_more_data: boolean, optional, Default=True
           Boolean variable to indicate whether to click on the 'LOAD
           MORE' button to extract more movies. 
-      num_load_more_data_clicks: int, optional, Default = 1
+      num_load_more_data_clicks: int, optional, Default = 4
           Number of clicks on the "LOAD MORE" button. 
       crawling_delay: int, optional, Default = 5  
           Waiting time, in seconds, before crawling the website page. 
